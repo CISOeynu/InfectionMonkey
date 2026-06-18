@@ -4,13 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyinstaller = "==5.13.0"
+pyinstaller = "==6.0.0"
 ifaddr = "*"
 ipaddress = ">=1.0.23"
 odict = "==1.7.0"
 psutil = ">=5.7.0"
-requests = ">=2.24"
-urllib3 = "==1.26.5"
+requests = ">=2.33.0"
+urllib3 = "==2.7.0"
 "WinSys-3.x" = "*"
 pywin32-ctypes = {version = "*", markers = "sys_platform == 'win32'"} # Pyinstaller requirement on windows
 pywin32 = {version = "*", markers = "sys_platform == 'win32'"} # Lock file is not created with sys_platform win32 requirement if not explicitly specified
